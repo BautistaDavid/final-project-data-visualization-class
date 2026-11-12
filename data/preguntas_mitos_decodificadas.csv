@@ -1,0 +1,21 @@
+﻿codigo_pregunta,descripcion_pregunta
+Q3,¿Qué edad tienes?
+Q12,¿Con qué frecuencia participas en capacitaciones o procesos de aprendizaje relacionados con herramientas digitales?
+Q15_1,"Piensa una tarea real: algo que tienes que resolver, completar o sacar adelante - La solución digital de referencia mejora mi desempeño en tareas relevantes."
+Q15_2,"Piensa una tarea real: algo que tienes que resolver, completar o sacar adelante - La solución digital de referencia me permite completar tareas con mayor efectividad."
+Q14,¿Cuál fue la modalidad principal de tu experiencia de aprendizaje?
+Q7,¿Cuál de estas opciones describe mejor tu servicio actual?
+Q10,¿Cómo valorarías tu nivel de experiencia utilizando soluciones digitales para el trabajo?
+Q30_1,"Cada cerebro tiene sus propias mañas para concentrarse - Me cuesta concentrarme cuando hay conversaciones, notificaciones o ruidos de fondo."
+Q30_2,"Cada cerebro tiene sus propias mañas para concentrarse - Las pantallas con mucho brillo, movimiento o información me producen fatiga o distracción."
+Q30_3,"Cada cerebro tiene sus propias mañas para concentrarse - La postura, la temperatura o el mobiliario afectan de forma importante mi capacidad para aprender."
+Q30_4,Cada cerebro tiene sus propias mañas para concentrarse - Aprendo mejor cuando puedo reducir o ajustar los estímulos del entorno.
+Q31_1,"Para aprender una solución digital, prefiero que la presentación sea... - Muy simple y poco densa:Muy detallada y densa"
+Q32_1,"Para aprender una solución digital, prefiero colores... - Sobrios/poco intensos:Vivo/intensos"
+Q33_1,"Para aprender una solución digital, prefiero recursos... - Estáticos:Dinámicos/Animados"
+Q34_1,"Durante el aprendizaje de una solución digital, prefiero... - Sin sonidos:Sonidos de apoyo"
+Q4,¿con cuál género te identificas?
+Q18_1,"Cuando algo se complica, ahí descubrimos con qué contamos de verdad - Dispongo de los recursos técnicos necesarios para utilizar esta solución (licencias, permisos)"
+Q18_3,"Cuando algo se complica, ahí descubrimos con qué contamos de verdad - La empresa brinda el tiempo adecuado para aprender a usar la solución"
+Q35_1,Prefiero una experiencia de aprendizaje de una solución digital... - Guiada paso a paso:Autónoma y a mi ritmo
+Q36_1,Prefiero aprender a usar una solución digital... - Observando una demostración:Experimentando directamente
