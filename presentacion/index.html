@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cazadores de Mitos ACME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Oswald:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="rough">
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="4"/>
+  </filter>
+</svg>
+
+<div id="stage">
+
+  <!-- 1. PORTADA -->
+  <section class="slide cover" data-title="Portada">
+    <div class="tape"><span>ORDEN DE LA JUNTA: TRANSFORMACIÓN DIGITAL INMEDIATA</span></div>
+    <div class="bubble">
+      <div class="cover-logo">
+        <div class="acme">ACME<small>CORPORATION</small></div>
+        <div class="presents">presenta<br>un experimento con 500 respuestas</div>
+      </div>
+      <h1 class="cover-title">Cazadores de <span class="hot">Mitos Digitales</span></h1>
+      <p class="cover-sub">A prueba de datos: qué impulsa (y qué no) el uso de soluciones digitales en ACME Corp.</p>
+      <div class="cover-tags">
+        <span class="tag">PROYECTO FINAL</span>
+        <span class="tag alt">VISUALIZACIÓN DE DATOS</span>
+        <span class="tag">9 MITOS · 3 EQUIPOS · 15 ROLES</span>
+      </div>
+    </div>
+    <div class="press-start">PULSA ▶ PARA COMENZAR</div>
+    <div class="tape bottom"><span>ESTUDIO DE APROPIACIÓN DE TECNOLOGÍAS DIGITALES</span></div>
+  </section>
+
+  <!-- 2. EXPEDIENTE -->
+  <section class="slide light pad" data-title="El expediente">
+    <h2 class="title">El expediente ACME</h2>
+    <p class="subtitle">La Junta Directiva decretó la Transformación Digital Inmediata.</p>
+    <div class="dossier">
+      <ul>
+        <li><b>Antecedentes:</b> décadas de prototipos físicos, pruebas de campo volátiles y lanzamientos guiados por la intuición, con un alto índice de fallos operativos.</li>
+        <li><b>La meta:</b> pasar de decidir por «corazonada» a una cultura impulsada por la analítica de datos.</li>
+        <li><b>El desafío:</b> en I+D, Gerencia, Ventas, Comercial y Gestión Humana circulan sesgos y mitos sobre la adopción digital.</li>
+        <li><b>La evidencia:</b> el Estudio de apropiación de tecnologías digitales, con 500 respuestas sintéticas.</li>
+      </ul>
+      <div class="kpis">
+        <div class="kpi"><div class="kpi-head">TOTAL ENCUESTADOS</div><div class="kpi-body"><span class="kpi-num">500</span><span class="kpi-label">registros<br>aleatorizados</span></div></div>
+        <div class="kpi"><div class="kpi-head">ÍNDICE DE UTILIDAD PERCIBIDA</div><div class="kpi-body"><span class="kpi-num">4,66</span><span class="kpi-label">promedio ACME<br>en escala de 1 a 7</span></div></div>
+        <div class="kpi"><div class="kpi-head">VALORACIÓN ALTA (≥ 5,5)</div><div class="kpi-body"><span class="kpi-num">33,6 %</span><span class="kpi-label">convencidos del<br>impacto práctico</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. DINÁMICA A CIEGAS -->
+  <section class="slide dark pad" data-title="Dinámica a ciegas">
+    <h2 class="title">Cazadores de mitos analíticos</h2>
+    <p class="subtitle">Reglas de la dinámica a ciegas</p>
+    <div class="rules">
+      <ol class="steps">
+        <li><span>Cada mesa recibe sus tarjetas de rol.</span></li>
+        <li><span>Debaten cada mito sin ver el tablero.</span></li>
+        <li><span>Cada mesa elige un sello.</span></li>
+        <li><span>Revelamos los datos.</span></li>
+      </ol>
+      <div class="teams-setup">
+        <div class="stamp-legend">
+          <div><span class="stamp confirmado">CONFIRMADO</span>Los datos lo respaldan</div>
+          <div><span class="stamp plausible">PLAUSIBLE</span>Hay señal, pero débil</div>
+          <div><span class="stamp desmentido">DESMENTIDO</span>Los datos lo desmienten</div>
+        </div>
+        <div class="points"><b>+1 punto</b> por veredicto acertado</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. LABORATORIO -->
+  <section class="slide blueprint pad" id="slide-lab" data-title="Cómo medimos">
+    <h2 class="title">El laboratorio: cómo medimos</h2>
+    <p class="subtitle">Los dos índices que usamos en los mitos</p>
+    <div class="instruments">
+      <div class="instrument">
+        <h3>Utilidad percibida</h3>
+        <p>¿La herramienta mejora mi desempeño en tareas reales?</p>
+        <span class="scale">ESCALA 1 – 7</span>
+      </div>
+      <div class="instrument">
+        <h3>Adopción</h3>
+        <p>¿La sigo usando, la recomiendo y la uso más allá de lo obligatorio?</p>
+        <span class="scale">ESCALA 1 – 7</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5–22. MITOS (generados por app.js) -->
+
+  <!-- 23. MARCADOR -->
+  <section class="slide dark pad" id="slide-score" data-title="Marcador final">
+    <h2 class="title">Marcador final</h2>
+    <div id="score-board"></div>
+  </section>
+
+  <!-- 24. CIERRE -->
+  <section class="slide rings" data-title="Cierre">
+    <div class="closing">
+      <h2 class="title">¡Eso es todo, amigos!</h2>
+      <p>La transformación digital no fracasa por la edad ni por falta de ganas: <b>fracasa cuando olvidamos habilitar el entorno.</b> Ahora que los mitos cayeron, el siguiente paso en ACME lo escriben ustedes.</p>
+      <div class="row">
+        <span class="q">¿Preguntas?</span>
+        <a class="btn" href="../dashboard/ACME_Corp._Cazadores_de_Mitos_Digitales_dashboard.pdf" target="_blank" rel="noopener">Abrir el tablero ▶</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AYUDA -->
+  <div id="help" role="dialog" aria-label="Controles">
+    <h2>Controles del laboratorio</h2>
+    <table>
+      <tr><td><kbd>→</kbd><kbd>Espacio</kbd><kbd>AvPág</kbd></td><td>Avanzar. Cada mito tiene 2 diapositivas: votación y evidencia.</td></tr>
+      <tr><td><kbd>←</kbd><kbd>RePág</kbd></td><td>Retroceder</td></tr>
+      <tr><td><kbd>Inicio</kbd><kbd>Fin</kbd></td><td>Primera / última diapositiva</td></tr>
+      <tr><td><kbd>Enter</kbd><kbd>R</kbd></td><td>Pasar de la votación a la evidencia (← vuelve a la votación)</td></tr>
+      <tr><td><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></td><td>Equipo 1 vota Confirmado · Plausible · Desmentido</td></tr>
+      <tr><td><kbd>4</kbd><kbd>5</kbd><kbd>6</kbd></td><td>Equipo 2 vota Confirmado · Plausible · Desmentido</td></tr>
+      <tr><td><kbd>7</kbd><kbd>8</kbd><kbd>9</kbd></td><td>Equipo 3 vota Confirmado · Plausible · Desmentido</td></tr>
+      <tr><td><kbd>N</kbd></td><td>Mostrar / ocultar la nota del laboratorio (notas para quien presenta)</td></tr>
+      <tr><td><kbd>F</kbd></td><td>Pantalla completa</td></tr>
+      <tr><td><kbd>H</kbd><kbd>?</kbd><kbd>Esc</kbd></td><td>Mostrar / ocultar esta ayuda</td></tr>
+    </table>
+  </div>
+
+  <!-- HUD -->
+  <nav id="hud" aria-label="Navegación">
+    <div id="hud-score"></div>
+    <div id="progress"><div class="fill"></div><span class="count"></span></div>
+    <button id="prev" class="btn ghost">◀ Atrás</button>
+    <button id="next" class="btn">Siguiente ▶</button>
+  </nav>
+</div>
+
+<div id="tip"></div>
+<noscript><p style="color:#fff;font:24px sans-serif;padding:24px">Esta presentación necesita JavaScript activado.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
